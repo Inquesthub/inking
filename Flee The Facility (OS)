@@ -1,4 +1,4 @@
-local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/inquestor420/Celeron/refs/heads/main/daff"))()
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/inquesthub/Celeron/refs/heads/main/daff"))()
 
 local win = ui:Create({
     Name = "inquests's GUI (Flee The Facility)",
