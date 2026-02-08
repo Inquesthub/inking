@@ -1,4 +1,4 @@
-local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/inquesthub/infactory/refs/heads/main/daff"))()
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/inquesthub/inking/refs/heads/main/daff"))()
 
 local win = ui:Create({
     Name = "Infactory (Flee The Facility)",
