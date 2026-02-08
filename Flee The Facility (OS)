@@ -1,4 +1,4 @@
-local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/inquesthub/Celeron/refs/heads/main/daff"))()
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/inquesthub/infactory/refs/heads/main/daff"))()
 
 local win = ui:Create({
     Name = "Infactory (Flee The Facility)",
@@ -396,7 +396,7 @@ StarterGui:SetCore("SendNotification", {
     Duration = 3,
     Button1 = "alright fella",
 })
-setclipboard("ghostofcelleron")
+setclipboard("inquestor420")
 end)
 
 helptab:Button("Copy Discord Server Invite", function()
@@ -408,5 +408,5 @@ StarterGui:SetCore("SendNotification", {
     Duration = 3,
     Button1 = "alright fella",
 })
-setclipboard("https://discord.gg/8stFYxJv4R")
+setclipboard("https://discord.gg/vPAU9Pum5Q")
 end)
