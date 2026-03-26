@@ -408,5 +408,5 @@ StarterGui:SetCore("SendNotification", {
     Duration = 3,
     Button1 = "alright fella",
 })
-setclipboard("https://discord.gg/vPAU9Pum5Q")
+setclipboard("https://discord.gg/j7h8emmbzX")
 end)
