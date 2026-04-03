@@ -1,7 +1,7 @@
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/Daffy734/code/refs/heads/main/yep"))()
 
 local win = ui:Create({
-    Name = "Celeron's GUI (Bite By Night)",
+    Name = "INFACTORY (Bite By Night)",
     ThemeColor = Color3.fromRGB(22, 22, 44),
     ThemeGradient = Color3.fromRGB(255, 22, 22),
     StartupSound = "rbxassetid://6958727243",
@@ -18,9 +18,9 @@ local tpstab = win:Tab("Teleport")
 local misctab = win:Tab("Others")
 local helptab = win:Tab("Info")
 
-hometab:Label("Script Made By Celeron + Daffy!")
+hometab:Label("Script Made By inquestor420")
 tpstab:Label("Teleport Features.")
-hometab:Label("Join The Discord Server In Info For Updates / Suggestions.")
+hometab:Label("Join The Discord Server In Info For more scripts!")
 maintab:Label("Character Movement Features.")
 vistab:Label("Visual Features.")
 misctab:Label("Other Features.")
@@ -1135,7 +1135,7 @@ helptab:Button("Copy Owner Discord Username", function()
         Duration = 3,
         Button1 = "alright fella",
     })
-    setclipboard("ghostofcelleron")
+    setclipboard("inquestor420")
 end)
 
 helptab:Button("Copy Discord Server Invite", function()
@@ -1146,7 +1146,7 @@ helptab:Button("Copy Discord Server Invite", function()
         Duration = 3,
         Button1 = "alright fella",
     })
-    setclipboard("https://discord.gg/8stFYxJv4R")
+    setclipboard("https://discord.gg/j7h8emmbzX")
 end)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ghostofcelleron/Scripts/refs/heads/main/oldthingyep",true))()
