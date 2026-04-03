@@ -1,7 +1,7 @@
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/Daffy734/code/refs/heads/main/yep"))()
 
 local win = ui:Create({
-    Name = "Celeron's GUI (Azure Latch)",
+    Name = "INFACTORY (Azure Latch)",
     ThemeColor = Color3.fromRGB(111, 111, 111),
 	ThemeGradient = Color3.fromRGB(10, 10, 10),
     StartupSound = "rbxassetid://6958727243",
@@ -18,7 +18,7 @@ local exploittab = win:Tab("Exploits")
 local misctab = win:Tab("Others")
 local helptab = win:Tab("Info")
 
-hometab:Label("Script Made By Celeron + Daffy!")
+hometab:Label("Script Made By Inquestor420")
 hometab:Label("Join The Discord Server In Info For Updates / Suggestions.")
 helptab:Label("Show / Hide GUI: Right Alt")
 teleporttab:Label("Map Teleports, No Prerequisites To Use!")
@@ -54,7 +54,7 @@ helptab:Button("Copy Owner Discord Username", "Copies The Owner's Discord Userna
         Duration = 3,
         Button1 = "alright fella",
     })
-    setclipboard("ghostofcelleron")
+    setclipboard("inquestor420")
 end)
 
 helptab:Button("Copy Discord Server Invite", "Copies The Discord Invite To Your Clipboard.", function()
@@ -65,7 +65,7 @@ helptab:Button("Copy Discord Server Invite", "Copies The Discord Invite To Your 
         Duration = 3,
         Button1 = "alright fella",
     })
-    setclipboard("https://discord.gg/8stFYxJv4R")
+    setclipboard("https://discord.com/invite/j7h8emmbzX")
 end)
 
 if math.random(1,50) == 1 then
@@ -2993,7 +2993,7 @@ end)
 local autogk = maintab2:Folder("Auto Goalkeeper Features.", Color3.fromRGB(24, 255, 228), true)
 autogk:Label("Auto Goalkeeper: Automatically Plays As GK For You.")
 
-autogk:Button("Celeron's Auto GK Enhanced", "Click V To Toggle, Reset To Disable.", function()
+autogk:Button("Inquest's Auto GK Enhanced", "Click V To Toggle, Reset To Disable.", function()
     task.spawn(function()
         local Players = game:GetService("Players")
         local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -3174,7 +3174,7 @@ autogk:Button("Celeron's Auto GK Enhanced", "Click V To Toggle, Reset To Disable
     end)
 end)
 
-autogk:Button("Daffy's Auto GK", "Reset Or Click F4 To Disable.", function()
+autogk:Button("inquests's Auto GK", "Reset Or Click F4 To Disable.", function()
     local gkPlayerState = {
         plr = Players.LocalPlayer,
         char = nil,
@@ -3548,8 +3548,8 @@ othersil:Toggle("No Cutscene", "Shitty Feature For Right Now That Disables Cutsc
     cutsceneState.nocutscene = not cutsceneState.nocutscene
     local StarterGui = game:GetService("StarterGui")
     local SoundService = game:GetService("SoundService")
-    local tempFolder = SoundService:FindFirstChild("celerontemp") or Instance.new("Folder", SoundService)
-    tempFolder.Name = "celerontemp"
+    local tempFolder = SoundService:FindFirstChild("inqtemp") or Instance.new("Folder", SoundService)
+    tempFolder.Name = "inqtemp"
     local crowdSound = SoundService:FindFirstChild("football-crowd-3-69245") or tempFolder:FindFirstChild("football-crowd-3-69245")
 
     StarterGui:SetCore("SendNotification", {
@@ -3910,52 +3910,52 @@ mobile:Button("Air Dribble (Mobile Button)", "Click Again To Remove Button.", fu
     if airDribble.active then show() else hide() end
 end)
 
-funtab:Label("Celeron's Movesets, Recommend Using In Normal Servers.")
+funtab:Label("Inquests's Movesets, Recommend Using In Normal Servers.")
 
 funtab:Button("Goku Moveset (Req. Isagi)", "Click F4 To Disable.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "brought to you by celeron!",
+        Text = "Made by Infactory INFACTORY!",
         Duration = 5,
         Button1 = "OK",
     })
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ghostofcelleron/Celeron/refs/heads/main/goku%20moveset%20(azl)",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Inquesthub/Celeron/refs/heads/main/goku%20moveset%20(azl)",true))()
 end)
 
 funtab:Button("Aizen Moveset (Req. Isagi)", "Click F4 To Disable.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "brought to you by celeron!",
+        Text = "Made by Infactory INFACTORY!",
         Duration = 5,
         Button1 = "OK",
     })
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ghostofcelleron/Celeron/refs/heads/main/aizen%20moveset",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Inquesthub/Celeron/refs/heads/main/aizen%20moveset",true))()
 end)
 
 funtab:Button("Loki Moveset (V2) (Req. Isagi.)", "Click F4 To Disable, Rejoin To Fix Isagi Music.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "brought to you by celeron!",
+        Text = "Made by Infactory INFACTORY!",
         Duration = 5,
         Button1 = "OK",
     })
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ghostofcelleron/Celeron/refs/heads/main/loki%20v2"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Inquesthub/Celeron/refs/heads/main/loki%20v2"))()
 end)
 
 funtab:Button("Ronaldo Moveset (V3) (Req. Shidou)", "Click F4 To Disable.", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ghostofcelleron/Celeron/refs/heads/main/ronaldov3"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Inquesthub/Celeron/refs/heads/main/ronaldov3"))()
 end)
 
-funtab:Label("Daffy's Movesets.")
+funtab:Label("More Movesets.")
 
 funtab:Button("Gojo Moveset (Req. Isagi.)", "Click F4 To Disable.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "brought to you by daffy!",
+        Text = "Made by Infactory INFACTORY!",
         Duration = 5,
         Button1 = "OK",
     })
@@ -3966,7 +3966,7 @@ funtab:Button("Hugo Moveset (Early Access.) (Req. Kunigami)", "Click F4 To Disab
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "brought to you by daffy!",
+        Text = "Made by Infactory INFACTORY!",
         Duration = 5,
         Button1 = "OK",
     })
@@ -3977,7 +3977,7 @@ funtab:Button("Naoya Moveset (Req. Sae)", "Click F4 To Disable.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "brought to you by daffy!",
+        Text = "Made by Infactory INFACTORY!",
         Duration = 5,
         Button1 = "OK",
     })
@@ -3988,7 +3988,7 @@ funtab:Button("Lore Sae Moveset (Req. Sae.)", "Rejoin To Disable.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "brought to you by daffy!",
+        Text = "Made by Infactory",
         Duration = 5,
         Button1 = "OK",
     })
@@ -4517,5 +4517,5 @@ exploittab:Textbox("Goal Target", "Enter a number of goals to stop farming at.",
     end
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ghostofcelleron/Scripts/refs/heads/main/oldthingyep",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Inquesthub/Scripts/refs/heads/main/oldthingyep",true))()
 loadstring(game:HttpGet("https://pastebin.com/raw/rQMS2B9R",true))()
