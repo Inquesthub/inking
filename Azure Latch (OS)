@@ -3916,7 +3916,7 @@ funtab:Button("Goku Moveset (Req. Isagi)", "Click F4 To Disable.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "Made by Infactory INFACTORY!",
+        Text = "Made by Inquestor420 https://discord.com/invite/j7h8emmbzX",
         Duration = 5,
         Button1 = "OK",
     })
@@ -3927,7 +3927,7 @@ funtab:Button("Aizen Moveset (Req. Isagi)", "Click F4 To Disable.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "Made by Infactory INFACTORY!",
+        Text = "Made by Inquestor420 https://discord.com/invite/j7h8emmbzX",
         Duration = 5,
         Button1 = "OK",
     })
@@ -3938,7 +3938,7 @@ funtab:Button("Loki Moveset (V2) (Req. Isagi.)", "Click F4 To Disable, Rejoin To
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "Made by Infactory INFACTORY!",
+        Text = "Made by Inquestor420 https://discord.com/invite/j7h8emmbzX",
         Duration = 5,
         Button1 = "OK",
     })
@@ -3955,18 +3955,19 @@ funtab:Button("Gojo Moveset (Req. Isagi.)", "Click F4 To Disable.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "Made by Infactory INFACTORY!",
+        Text = "Made by Inquestor420, V to trap in air https://discord.com/invite/j7h8emmbzX",
         Duration = 5,
         Button1 = "OK",
     })
     loadstring(game:HttpGet("https://pastebin.com/raw/9f5V7QYt"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/rY54XLHG"))()
 end)
 
 funtab:Button("Hugo Moveset (Early Access.) (Req. Kunigami)", "Click F4 To Disable, Rejoin To Fix Kunigami Music.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "Made by Infactory INFACTORY!",
+        Text = "Made by Inquestor420 https://discord.com/invite/j7h8emmbzX",
         Duration = 5,
         Button1 = "OK",
     })
@@ -3977,7 +3978,7 @@ funtab:Button("Naoya Moveset (Req. Sae)", "Click F4 To Disable.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "Made by Infactory INFACTORY!",
+        Text = "Made by Inquestor420 https://discord.com/invite/j7h8emmbzX",
         Duration = 5,
         Button1 = "OK",
     })
@@ -3988,7 +3989,7 @@ funtab:Button("Lore Sae Moveset (Req. Sae.)", "Rejoin To Disable.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
-        Text = "Made by Infactory",
+        Text = "Made by Inquestor420 https://discord.com/invite/j7h8emmbzX",
         Duration = 5,
         Button1 = "OK",
     })
