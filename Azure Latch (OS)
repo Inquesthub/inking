@@ -3951,7 +3951,7 @@ end)
 
 funtab:Label("More Movesets.")
 
-funtab:Button("Gojo Moveset (Req. Isagi.)", "Click F4 To Disable.", function()
+funtab:Button("Gojo Moveset (Req. Isagi.) V to trap *BALL IN AIR*", "Click F4 To Disable.", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
