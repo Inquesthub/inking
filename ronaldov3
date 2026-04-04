@@ -1,7 +1,7 @@
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "Credits",
-    Text = "brought to you by celeron!",
+    Text = "Brought to you by Inquest!",
     Duration = 5,
     Button1 = "OK",
 })
