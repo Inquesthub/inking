@@ -3960,10 +3960,10 @@ funtab:Button("Gojo Moveset (Req. Isagi.) V to trap *BALL IN AIR*", "Click F4 To
         Button1 = "OK",
     })
     loadstring(game:HttpGet("https://pastebin.com/raw/9f5V7QYt"))()
-    loadstring(game:HttpGet("https://pastebin.com/raw/x2CG7zLN"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/jsRDFzCA"))()
 end)
 
-funtab:Button("Hugo Moveset (Early Access.) (Req. Kunigami)", "Click F4 To Disable, Rejoin To Fix Kunigami Music.", function()
+funtab:Button("V to trap with cutscene isagi only", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
@@ -3971,7 +3971,7 @@ funtab:Button("Hugo Moveset (Early Access.) (Req. Kunigami)", "Click F4 To Disab
         Duration = 5,
         Button1 = "OK",
     })
-loadstring(game:HttpGet("https://pastebin.com/raw/ND6yrPyk"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/Qhs2f0xf"))()
 end)
 
 funtab:Button("Naoya Moveset (Req. Sae)", "Click F4 To Disable.", function()
