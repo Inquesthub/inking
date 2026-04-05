@@ -3960,7 +3960,7 @@ funtab:Button("Gojo Moveset (Req. Isagi.) V to trap *BALL IN AIR*", "Click F4 To
         Button1 = "OK",
     })
     loadstring(game:HttpGet("https://pastebin.com/raw/9f5V7QYt"))()
-    loadstring(game:HttpGet("https://pastebin.com/raw/x2CG7zLN"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Qhs2f0xf"))()
 end)
 
 funtab:Button("Hugo Moveset (Early Access.) (Req. Kunigami)", "Click F4 To Disable, Rejoin To Fix Kunigami Music.", function()
