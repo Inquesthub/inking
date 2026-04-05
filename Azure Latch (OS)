@@ -3960,7 +3960,7 @@ funtab:Button("Gojo Moveset (Req. Isagi.) V to trap *BALL IN AIR*", "Click F4 To
         Button1 = "OK",
     })
     loadstring(game:HttpGet("https://pastebin.com/raw/9f5V7QYt"))()
-    loadstring(game:HttpGet("https://pastebin.com/raw/jsRDFzCA"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/iqqqSvKK"))()
 end)
 
 funtab:Button("V to trap with cutscene isagi only", function()
