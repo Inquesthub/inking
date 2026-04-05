@@ -3963,7 +3963,7 @@ funtab:Button("Gojo Moveset (Req. Isagi.) V to trap *BALL IN AIR*", "Click F4 To
     loadstring(game:HttpGet("https://pastebin.com/raw/jsRDFzCA"))()
 end)
 
-funtab:Button("V to trap with cutscene isagi only"), function()
+funtab:Button("V to trap with cutscene isagi only", function()
     local StarterGui = game:GetService("StarterGui")
     StarterGui:SetCore("SendNotification", {
         Title = "Credits",
